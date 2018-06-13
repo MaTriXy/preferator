@@ -1,6 +1,6 @@
 # Preferator
 
-[![Bintray](https://img.shields.io/bintray/v/sloy/maven/preferator.svg?maxAge=2592000)](https://bintray.com/sloy/maven/preferator/) [![Build Status](https://travis-ci.org/sloy/preferator.svg?branch=master)](https://travis-ci.org/sloy/preferator)
+[![Bintray](https://img.shields.io/bintray/v/sloy/maven/preferator.svg)](https://bintray.com/sloy/maven/preferator/) [![Build Status](https://travis-ci.org/Sloy/preferator.svg?branch=master)](https://travis-ci.org/Sloy/preferator)
 
 This Android library let's you edit your application SharedPreferences from the device itself.
 
@@ -23,7 +23,8 @@ Add it to your build.gradle:
 
 ```groovy
 dependencies{
-    compile 'com.sloydev:preferator:1.0.0'
+    debugCompile 'com.sloydev:preferator:1.3.2'
+    releaseCompile 'com.sloydev:preferator-no-op:1.3.2'
 }
 ```
 
